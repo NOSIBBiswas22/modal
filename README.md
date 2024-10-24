@@ -27,13 +27,16 @@
 
 Feel free to add, modify, or remove any features to match your vision for the modal.js library!
 
+## For demo visit [Modal](https://nosibbiswas22.github.io/modal/)
+
+
 ## Getting Started
 
 ### 1. Installation
 To use `modal.js` without downloding, include it in your HTML file:
 
 ```html
-<script src="https://raw.githubusercontent.com/NOSIBBiswas22/modal/refs/heads/main/modal.js"></script>
+<script src="https://nosibbiswas22.github.io/modal/modal.js"></script>
 ```
 
 
@@ -112,7 +115,7 @@ Here's an example of how to implement the modal in your code:
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
-    <script src="https://raw.githubusercontent.com/NOSIBBiswas22/modal/refs/heads/main/modal.js"></script>
+    <script src="https://nosibbiswas22.github.io/modal/modal.js"></script>
     <title>Modal Example</title>
     <style>
         body {
