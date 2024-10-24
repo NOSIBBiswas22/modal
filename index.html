@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <script src="modal.js"></script>
+    <title>Modal Example</title>
+    <style>
+        body {
+            margin: 0;
+            height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .showButton {
+            padding: 12px 24px;
+            background-color: #00796b;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            font-size: 16px;
+            cursor: pointer;
+            transition: background-color 0.3s;
+        }
+
+        .showButton:hover {
+            background-color: #004d40; /* Darker shade on hover */
+        }
+    </style>
+</head>
+<body>
+    <!-- Modal HTML -->
+    <div id="modal"></div>
+
+    <button class="showButton" onclick="showModal()">Show Modal</button>
+
+    <script>
+    function showModal() {
+        openModal(
+            '<i class="fas fa-info-circle"></i>', // Example icon (Font Awesome)
+            '#00796b',                            // Icon color
+            'medium',                              // Modal size
+            'This is a dynamic content message.<br><a href="https://example.com">Learn more</a>', // Content with link
+            'Information',                         // Header
+            'center',                              // Header alignment
+            2,                                     // Number of buttons
+            'half',                                // Button width
+            'Yes',                                 // Yes button text
+            'No',                                  // No button text
+            '#00796b',                             // Yes button color
+            '#c9302c',                             // No button color
+            'horizontal',                          // Button layout
+            function() { alert('You clicked Yes!'); }, // Yes button action
+            function() { alert('You clicked No!'); }   // No button action
+        );
+    }
+    </script>
+</body>
+</html>
