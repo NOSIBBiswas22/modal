@@ -1,10 +1,11 @@
 # Documentation for dynamic modal generator
 
-![developer](https://img.shields.io/badge/Developed%20By%20%3A-Nosib%20Biswas-red)
----
-
 ## Overview
 `modal.js` is a JavaScript module that provides a reusable dynamic modal dialog for web applications. The modal supports various configurations, such as custom content, button actions, header alignment, icon usage, different layouts, styles, and actions.
+
+![Static Badge](https://img.shields.io/badge/Developed%20By-Nosib%20Biswas-blue)
+![Static Badge](https://img.shields.io/badge/version-1.0.1-red)
+---
 
 ## Features
 - Customizable Modal Size: Choose from various size options (small, medium, large) to fit your design needs.
