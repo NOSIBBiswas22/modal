@@ -30,10 +30,10 @@
 
 Feel free to add, modify, or remove any features to match your vision for the modal.js library!
 
-## For demo visit [Modal](https://nosibbiswas22.github.io/modal/)
+## Live Demo
+- Website: (https://nosibbiswas22.github.io/modal/)
 
-
-## Getting Started
+### Getting Started
 
 ### 1. Installation
 To use `modal.js` without downloding, include it in your HTML file:
