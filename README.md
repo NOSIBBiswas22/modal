@@ -99,16 +99,7 @@ openModal(
 );
 ```
 
-### 5. Adding modal div
-
-To use the dynamic modal in your project, make sure to add the following HTML snippet inside your `<body>` tag:
-
-```html
-<!-- Modal HTML -->
-<div id="modal"></div>
-```
-
-### 6. Example Usage
+### 5. Example Usage
 Here's an example of how to implement the modal in your code:
 
 ```html
@@ -177,14 +168,14 @@ Here's an example of how to implement the modal in your code:
 
 ```
 
-### 7. Using Icons
+### 6. Using Icons
 You can customize the icon in the modal header by passing the HTML for the icon as a string in the `modalIcon` parameter. For example, if you are using Font Awesome:
 
 ```javascript
 modalIcon: '<i class="fas fa-info-circle"></i>' // Font Awesome icon for info
 ```
 
-### 8. Adding Links
+### 7. Adding Links
 To include links in the modal content, simply add HTML anchor tags (`<a>`) within the `modalData` parameter. For example:
 
 ```javascript
@@ -193,7 +184,7 @@ modalData: 'Click here to <a href="https://example.com" target="_blank">learn mo
 
 This will create a clickable link that opens in a new tab.
 
-### 9. Default Values
+### 8. Default Values
 The `openModal` function has default values for several parameters. If not specified, the following defaults will be used:
 - `modalSize`: `'medium'`
 - `modalData`: `''` (empty)
